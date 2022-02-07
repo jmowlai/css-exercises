@@ -6,12 +6,19 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+
+
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+
+  
 }
 
 .profile-image {
@@ -21,6 +28,7 @@ body {
   width: 48px;
   height:  48px;
 }
+
 
 .logo {
   color: rebeccapurple;
@@ -45,4 +53,15 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  column-gap: 1em;
+}
+
+.personal{
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  column-gap: 1em;
 }
